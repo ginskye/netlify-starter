@@ -8,19 +8,25 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Toolbox</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Emily Hall</title>
+        
       </Head>
 
       <main>
-        <Header title="Next.js Toolbox" />
+        <p className="description">
+        <strong>FULL STACK SOFTWARE DEVELOPER</strong> <br />
+Analytical and organized professional and developer with outstanding attention to detail and excellent communication skills.   Proven ability to quickly learn and navigate multiple informational systems and technologies.  Committed to teamwork, accountability and continuous improvement and refinement of problem-solving skills.
+
+        </p>
+        
+      {/*   <Header title="Next.js Toolbox" />
         <hr />
         <p className="description">
           Here's an example of a Netlify Form! When you fill this out, the
           submissions can be found in the Netlify Admin site.
         </p>
         <FeedbackForm />
-        <JokeBlock />
+        <JokeBlock /> */}
       </main>
       <Footer />
     </div>
