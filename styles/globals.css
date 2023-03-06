@@ -16,7 +16,7 @@ main {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  max-width: 600ch;
+  max-width: 180ch;
 }
 
 hr {
