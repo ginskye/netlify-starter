@@ -7,18 +7,17 @@ import JokeBlock from "@components/JokeBlock";
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Emily Hall</title>
-        
-      </Head>
-
+      <Header title="Emily Hall" />
+      <hr />
+       
       <main>
+   {/*    
         <h1>Emily Hall</h1>
         <p className="description">
         <strong>FULL STACK SOFTWARE DEVELOPER</strong> <br />
 Analytical and organized professional and developer with outstanding attention to detail and excellent communication skills.   Proven ability to quickly learn and navigate multiple informational systems and technologies.  Committed to teamwork, accountability and continuous improvement and refinement of problem-solving skills.
 
-        </p>
+        </p> */}
         
       {/*   <Header title="Next.js Toolbox" />
         <hr />
