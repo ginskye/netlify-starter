@@ -8,6 +8,7 @@ body {
 
 * {
   box-sizing: border-box;
+  background-color: lightblue;
 }
 
 main {
@@ -15,10 +16,15 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
-  max-width: 180ch;
+  margin:  auto;
+  max-width: 200ch;
+  
 }
 
 hr {
   width: 100%;
 }
+navbar {
+  background-color: lightblue;
+}
+

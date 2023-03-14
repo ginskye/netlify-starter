@@ -18,12 +18,13 @@
     "export": "next export"
   },
   "dependencies": {
+    "bootswatch": "^5.2.3",
     "cypress": "^10.0.3",
     "next": "^12.1.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "netlify-plugin-cypress": "2.2.0"
+    "netlify-plugin-cypress": "^1.2.0"
   }
 }
