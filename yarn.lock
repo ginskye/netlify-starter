@@ -378,9 +378,9 @@ cachedir@^2.3.0:
   integrity sha512-A+Fezp4zxnit6FanDmv9EqXNAi3vt9DWp51/71UEhXukb7QUuvtv9344h91dyAxuTLoSYJFU299qzR3tzwPAhw==
 
 caniuse-lite@^1.0.30001406:
-  version "1.0.30001407"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001407.tgz"
-  integrity sha512-4ydV+t4P7X3zH83fQWNDX/mQEzYomossfpViCOx9zHBSMV+rIe3LFqglHHtVyvNl1FhTNxPxs3jei82iqOW04w==
+  version "1.0.30001472"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001472.tgz"
+  integrity sha512-xWC/0+hHHQgj3/vrKYY0AAzeIUgr7L9wlELIcAvZdDUHlhL/kNxMdnQLOSOQfP8R51ZzPhmHdyMkI0MMpmxCfg==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -1753,16 +1753,17 @@ negotiator@0.6.3:
   resolved "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
 
-netlify-plugin-cypress@^1.2.0:
-  version "1.11.1"
-  resolved "https://registry.npmjs.org/netlify-plugin-cypress/-/netlify-plugin-cypress-1.11.1.tgz"
-  integrity sha512-BC/AHndIPfafQihDMxLPdlk7jPZeevwYNzE2VHL0hKgcxlrdPCygjx9yYhFAqV20jJe2QYpRucTWrBTelnHd/A==
+netlify-plugin-cypress@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/netlify-plugin-cypress/-/netlify-plugin-cypress-2.2.0.tgz"
+  integrity sha512-J8dt12slBztXLdEH9XCBiEgkbJjM1RVMcHmJrnRFydh2y0lGtGEN5OmMeCKKZ7Jvv7rrxMvVcuvtHNi+D4dq2Q==
   dependencies:
     common-tags "1.8.0"
     debug "4.1.1"
     got "10.7.0"
     local-web-server "^4.2.1"
     puppeteer "^7.0.1"
+    ramda "0.27.1"
 
 next@^12.1.4:
   version "12.3.4"
@@ -2060,6 +2061,11 @@ qs@^6.5.2, qs@~6.5.2:
   version "6.5.3"
   resolved "https://registry.npmjs.org/qs/-/qs-6.5.3.tgz"
   integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
+
+ramda@0.27.1:
+  version "0.27.1"
+  resolved "https://registry.npmjs.org/ramda/-/ramda-0.27.1.tgz"
+  integrity sha512-PgIdVpn5y5Yns8vqb8FzBUEYn98V3xcPgawAkkgj0YJ0qDsnHCiNmZYfOGMgOvoB0eWFLpYbhxUR3mxfDIMvpw==
 
 raw-body@^2.3.3:
   version "2.5.2"

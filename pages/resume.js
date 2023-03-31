@@ -1,14 +1,18 @@
-import Link from "next/link";
+
 import Header from "@components/Header";
 import Head from "next/head";
 import Navbar from "@components/Navbar";
+import { useState } from "react";
 
 export default function Resume(){
+    const [display, setDisplay] = useState(false);
     return (
         <div className="container">
-            <Head><title>Resume</title></Head>
-        <main>
+            <Head><title>Resume</title>
+            </Head>
             <Navbar/>
+        <main>
+            
         <Header title="Emily Hall" />
         <br/><br/>
       <center><strong>FULL STACK SOFTWARE DEVELOPER </strong> <br/>
@@ -21,7 +25,7 @@ export default function Resume(){
       
       <p>
         <center><strong>EXPERIENCE</strong></center> <br/>
-        PPG Industries, Pittsburgh, PA 							JUNE 2022 - FEBRUARY 2023<br/>
+  <strong>     PPG Industries, Pittsburgh, PA 			</strong> 				 JUNE 2022 - FEBRUARY 2023<br/>
   Software Engineering Analyst, Partnerships and Innovation<br/>
   <ul>
   <li>Identified and coordinated external partnership opportunities across multiple Business Units, providing up to $4 MIL in potential savings as part of a team.</li>
@@ -51,6 +55,40 @@ export default function Resume(){
   <strong>Bachelor of Arts (BA), English Literature</strong><br />
   University of Pittsburgh, Pittsburgh, PA  <br /></center>
   
+  
+  <button type="button" class="collapsible" onClick={()=>setDisplay(display => !display)}><h3>Certificates:</h3><span class="hovertext">(Click to Expand/Collapse)</span>
+  </button>  <a href="https://www.codewars.com/users/ginskye"><img src="https://www.codewars.com/users/ginskye/badges/large" id="right"/></a>
+ <div style={{display: display ? "block" : "none"}}>
+  <ul>
+    <li>
+        <a href="./Certs/CertificateOfCompletion_Business Development Foundations Researching Market and Customer Needs.pdf">Business Development Foundations</a>
+    </li>
+    <li>
+        <a href="./Certs/CertificateOfCompletion_Data Visualization Storytelling.pdf">Data Visualization Storytelling</a>
+    </li>
+    <li>
+        <a href="./Certs/CertificateOfCompletion_Excel 2016 Managing and Analyzing Data.pdf">Excel 2016:  Managing and Analyzing Data</a>
+    </li>
+    <li>
+        <a href="./Certs/CertificateOfCompletion_Power BI Essential Training 2020.pdf">Power BI Essential Training</a>
+    </li>
+    <li>
+        <a href="./Certs/CertificateOfCompletion_UX Design for Developers.pdf">UX Design For Developers</a>
+    </li>
+    <li>
+        <a href="./Certs/CertificateOfCompletion_Python Essential Training.pdf">Python Essential Training</a>
+    </li>
+    <li>
+        <a href="./Certs/CertificateOfCompletion_Selenium Essential Training.pdf">Selenium Essential Training</a>
+    </li>
+    <li>
+        <a href="./Certs/CertificateOfCompletion_Using SQL with Python.pdf">Using SQL with Python</a>
+    </li>
+    <li>
+        <a href="./Certs/CertificateOfCompletion_Learning Cloud Computing Cloud Security.pdf">Learning Cloud Computing and Cloud Security</a>
+    </li>
+  </ul>
+  </div>
 </main>
 </div>
                   

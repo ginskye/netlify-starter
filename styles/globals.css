@@ -4,19 +4,21 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: lightblue;
 }
 
-* {
-  box-sizing: border-box;
+/* {
+ box-sizing: border-box; 
   background-color: lightblue;
-}
+} */
 
 main {
   padding: 2rem 20px;
+  /* 
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin:  auto;
+  flex-direction: column; 
+  justify-content: center;*/
+  margin-left: 10px;
   max-width: 200ch;
   
 }
@@ -24,7 +26,35 @@ main {
 hr {
   width: 100%;
 }
-navbar {
-  background-color: lightblue;
-}
+.navbar {
+  padding: 10px 10px;
+  width: 100%;
+  position: sticky;
+  top:1rem;
 
+}
+span.navspace{
+padding-left: 50px;
+}
+.collapsible {
+  text-align: left;
+  background-color: rgb(170, 188, 221);
+}
+.collapsible:hover .hovertext{
+visibility: visible;
+font-size: smaller;
+}
+.hovertext {
+  visibility: hidden;
+  font-size: smaller;
+}
+.content {
+  text-align: center;
+  overflow: hidden;
+}
+.show {
+  display: inline-block;
+}
+#right{
+float: right;
+}

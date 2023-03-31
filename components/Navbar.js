@@ -6,9 +6,13 @@ export default function Navbar() {
 //const router = useRouter()
 
     return (
-        <navbar classname={styles.navbar} >
-        <Link href="/"><a>Home</a></Link>           <Link href="/resume">Resume</Link>
-        
+        <navbar class="navbar" >
+       
+        <Link href="/"><a>Home</a></Link> 
+        <span class="navspace"></span>
+        <Link href="/resume">Resume</Link>
+        <span class="navspace"></span>
+        <Link href="/contact">Contact</Link>
         </navbar>
     );
 }
