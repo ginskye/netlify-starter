@@ -86,6 +86,10 @@ export default function Resume(){
     </li>
     <li>
         <a href="./Certs/CertificateOfCompletion_Learning Cloud Computing Cloud Security.pdf">Learning Cloud Computing and Cloud Security</a>
+
+    </li>
+    <li>
+        <a href="./Certs/CertificateOfCompletion_Designing RESTful APIs.pdf">Designing RESTful APIs</a>
     </li>
   </ul>
   </div>
