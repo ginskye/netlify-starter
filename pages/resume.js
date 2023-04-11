@@ -61,6 +61,12 @@ export default function Resume(){
  <div style={{display: display ? "block" : "none"}}>
   <ul>
     <li>
+        <a href="./Certs/IBM_Z_Xplore___Advanced_Badge20230411-28-za40mj.pdf">IBM Z Xplore - Advanced</a>
+    </li>
+    <li>
+        <a href="./Certs/IBM_Z_Xplore___Concepts_Badge20230406-28-1b8bpcc.pdf">IBM Z Xplore - Concepts</a>
+    </li>
+    <li>
         <a href="./Certs/CertificateOfCompletion_Business Development Foundations Researching Market and Customer Needs.pdf">Business Development Foundations</a>
     </li>
     <li>
