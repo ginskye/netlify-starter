@@ -15,22 +15,38 @@ export default function Resume(){
             
         <Header title="Emily Hall" />
         <br/><br/>
-      <center><strong>FULL STACK SOFTWARE DEVELOPER </strong> <br/>
-  Analytical and organized professional and developer with outstanding attention to detail and excellent communication skills.   Proven ability to quickly learn and navigate multiple informational systems and technologies.  Committed to teamwork, accountability and continuous improvement and refinement of problem-solving skills. </center>< br />
+      <center><strong>FULL STACK SOFTWARE DEVELOPER </strong> <br/>   
+  Analytical and organized software developer with experience designing and developing software solutions that meet business requirements while leveraging emerging technologies and programming languages to ensure high-quality deliverables. Demonstrated ability to learn and navigate multiple information systems and technologies quickly. Dedicated to promoting teamwork, accountability, and continuous improvement of problem-solving skills. A collaborative team player adept at fostering positive relationships and facilitating effective communication to achieve common goals and deliver successful outcomes.</center>< br />
   <p> 
-  <center><strong>TECHNOLOGIES AND CONCEPTS:</strong> < br />
-        C# | Ruby | SQL | MySQL | HTML | CSS | Javascript | Ruby on Rails | .Net with MVC | React and React Native | AngularJS | Android Studio | Python 3 | Selenium | Xamarin | Microsoft Office Suite - Outlook,  Excel, PowerPoint, Teams | Power BI | Azure DevOps | Ubuntu Linux | Element | Slack | IBM Z Mainframe | Object Oriented Programming |  Test Driven Development | Version Control (Git and Github) | APIs | Scrum and Agile methodology | IDEs including Visual Studio, Visual Studio Code, IntelliJ, SublimeText, SQLite Studio, PyCharm
-        </center>
+  <center><strong>CORE COMPETENCIES</strong> < br />
+  Full Stack Development | Object-Oriented Programming | Test-Driven Development | Technical Troubleshooting
+Scrum and Agile methodology |DevOps |  Technical Documentation | Cross-functional Team collaboration</center>
         < br /></p>
+        <center><strong>TECHNICAL SUMMARY</strong> <br/>
+                </center>
+                <strong>Programming Languages:</strong> C#, .Net with MVC, AngularJS, HTML, CSS, JavaScript, Ruby on Rails, React, React Native, Ruby, Python 3, Xamarin <br/>
+
+                <strong>Operating System and DevOps: </strong>Azure DevOps, Ubuntu Linux, Microsoft Windows, IBM Mainframe <br/>
+                <strong>Applications and Tools: </strong> Microsoft Office Suite, including Outlook,  Excel, PowerPoint,  Microsoft Teams, Element, Slack, Selenium <br/>       
+                <strong>IDEs:</strong> Visual Studio 2019/2022, Visual Studio Code, PyCharm, IntelliJ, Sublime Text, SQLite Studio, Android Studio <br/>
+                <strong>Databases:</strong> SQL, MySQL, SQLite, Power BI<br/>
+                <strong>Version control and methodologies: </strong> Git and GitHub, APIs,  Scrum and Agile methodology<br/>
       
       <p>
         <center><strong>EXPERIENCE</strong></center> <br/>
-  <strong>     PPG Industries, Pittsburgh, PA 			</strong> 				 JUNE 2022 - FEBRUARY 2023<br/>
+  <strong>     PPG Industries, Pittsburgh, PA 			</strong> 				 June 2022 - February 2023<br/>
   Software Engineering Analyst, Partnerships and Innovation<br/>
-  <ul>
-  <li>Identified and coordinated external partnership opportunities across multiple Business Units, providing up to $4 MIL in potential savings as part of a team.</li>
-  <li>Evaluated vendor software, developed early stage Proof of Concept projects, and implemented an Azure DevOps project for the Partnerships and Innovation Center of Excellence.</li>
-  <li>Awarded the PPG Copper Star by a colleague for my performance demonstrating The PPG Way.</li></ul><br/><br/>
+  <ul> 
+    <li>Implemented and administered an Azure DevOps project for the Partnerships and Innovation Center of Excellence following secure best practices, resulting in improved collaboration with internal and vendor partners and successful project delivery.</li>
+    <li>
+    Developed and coded an end-to-end Proof of Concept project for PDF search based on stakeholder needs, including: <br/>
+* Creation of a REST API in Microsoft C# .Net with MSSQL Server database source.<br/>
+* Front-end UI development in AngularJS with checkbox and search.
+   </li>
+  <li>Conducted a thorough evaluation of vendor software to identify the most effective partner solutions for each Business Unit, resulting in streamlined processes and increased efficiency.</li>
+  <li>Monitored and created scaling visualizations for a safety pilot found to reduce costs by $250k/yr and Illness & Injury rates by 60%.</li>
+  <li>Received PPG Copper Star award for consistently demonstrating exceptional performance aligned with The PPG Way.</li></ul>
+  <br/><br/>
   
   <strong>Natural Stitches, Pittsburgh, PA </strong>            								2012 - 2016<br/>
   Associate and Knitting Instructor<br/>
