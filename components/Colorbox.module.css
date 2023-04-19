@@ -9,3 +9,6 @@
     align-items: center;
     
 }
+.colorbox :hover {
+    color: red;
+}

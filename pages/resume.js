@@ -113,6 +113,9 @@ Scrum and Agile methodology |DevOps |  Technical Documentation | Cross-functiona
     <li>
         <a href="./Certs/CertificateOfCompletion_Designing RESTful APIs.pdf">Designing RESTful APIs</a>
     </li>
+    <li>
+        <a href="./Certs/CertificateOfCompletion_Postman Essential Training.pdf">Postman Essential Training</a>
+    </li>
   </ul>
   </div>
 </main>
